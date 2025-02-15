@@ -1,0 +1,17 @@
+filelock
+typing-extensions>=4.10.0
+networkx
+jinja2
+fsspec
+
+[:python_version >= "3.12"]
+setuptools
+
+[:python_version >= "3.9"]
+sympy==1.13.1
+
+[opt-einsum]
+opt-einsum>=3.3
+
+[optree]
+optree>=0.13.0

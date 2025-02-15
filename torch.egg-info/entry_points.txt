@@ -1,0 +1,5 @@
+[console_scripts]
+torchrun = torch.distributed.run:main
+
+[torchrun.logs_specs]
+default = torch.distributed.elastic.multiprocessing:DefaultLogsSpecs
